@@ -1,0 +1,32 @@
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Secret keys
+.env
+.env.*
+local.properties
+secrets.json
+*.key
+*.jks
+*.keystore
+
+# Android temporary files
+.gradle/
+build/
+.idea/
+*.apk
+*.aab
+.cxx/
+.externalNativeBuild/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini

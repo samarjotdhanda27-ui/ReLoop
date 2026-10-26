@@ -1,0 +1,123 @@
+{
+  "dataset_name": "ReLoop Industrial Reuse Pathways",
+  "version": "1.0",
+  "material": {
+    "id": "MAT001",
+    "name": "Fly Ash",
+    "source_industry": "Coal-Based Thermal Power Generation"
+  },
+  "sources": [
+    {
+      "id": "CEA2026",
+      "title": "Fly Ash Year Book 2026",
+      "publisher": "Central Electricity Authority",
+      "year": 2026
+    },
+    {
+      "id": "DHADSE2008",
+      "title": "Fly ash characterization, utilization and Government initiatives in India – A review",
+      "authors": "Dhadse, Kumari and Bhagia",
+      "year": 2008
+    }
+  ],
+  "reuse_pathways": [
+    {
+      "id": "RP001",
+      "buyer_industry": "Cement Manufacturing",
+      "application": "Portland Pozzolana Cement",
+      "relevant_properties": [
+        "chemical_composition",
+        "fineness",
+        "loss_on_ignition",
+        "moisture"
+      ],
+      "reference_standard": "IS 3812 Part 1",
+      "evidence": [
+        {
+          "source_id": "CEA2026",
+          "page": 13
+        },
+        {
+          "source_id": "DHADSE2008",
+          "page": 13
+        }
+      ],
+      "verification_required": true
+    },
+    {
+      "id": "RP002",
+      "buyer_industry": "Concrete Products",
+      "application": "Supplementary Cementitious Material",
+      "relevant_properties": [
+        "chemical_composition",
+        "fineness",
+        "loss_on_ignition",
+        "moisture"
+      ],
+      "reference_standard": "IS 3812 Part 1",
+      "evidence": [
+        {
+          "source_id": "CEA2026",
+          "page": 13
+        }
+      ],
+      "verification_required": true
+    },
+    {
+      "id": "RP003",
+      "buyer_industry": "Brick Manufacturing",
+      "application": "Fly Ash Bricks and Blocks",
+      "relevant_properties": [
+        "chemical_composition",
+        "particle_size",
+        "moisture"
+      ],
+      "reference_standard": "IS 12894",
+      "evidence": [
+        {
+          "source_id": "CEA2026",
+          "page": 13
+        }
+      ],
+      "verification_required": true
+    },
+    {
+      "id": "RP004",
+      "buyer_industry": "Road Construction",
+      "application": "Road Embankment and Fill",
+      "relevant_properties": [
+        "particle_size",
+        "moisture",
+        "geotechnical_properties",
+        "leaching_behavior"
+      ],
+      "reference_standard": "IRC SP 58",
+      "evidence": [
+        {
+          "source_id": "CEA2026",
+          "page": 86
+        }
+      ],
+      "verification_required": true
+    },
+    {
+      "id": "RP005",
+      "buyer_industry": "Geopolymer Products",
+      "application": "Geopolymer Construction Materials",
+      "relevant_properties": [
+        "chemical_composition",
+        "particle_size",
+        "reactivity"
+      ],
+      "reference_standard": null,
+      "evidence": [
+        {
+          "source_id": "CEA2026",
+          "page": 81
+        }
+      ],
+      "verification_required": true
+    }
+  ],
+  "disclaimer": "These pathways identify potential applications supported by research. They do not establish batch-specific suitability, safety, or regulatory compliance. Referenced standards require edition and applicability verification."
+}

@@ -1,0 +1,141 @@
+{
+  "dataset_name": "ReLoop Punjab-Haryana Demo Facilities",
+  "version": "1.0",
+  "region": {
+    "states": ["Punjab", "Haryana"],
+    "country": "India"
+  },
+  "data_notice": "All facilities and their trading activities are synthetic demo records. Coordinates approximate city centers, not actual industrial sites.",
+  "facilities": [
+    {
+      "id": "FAC001",
+      "name": "Rajpura Thermal By-Products Hub (Demo)",
+      "facility_type": "seller",
+      "industry": "Thermal Power Generation",
+      "city": "Rajpura",
+      "state": "Punjab",
+      "latitude": 30.478,
+      "longitude": 76.593,
+      "material": "Fly Ash",
+      "available_quantity_tonnes": 500,
+      "is_synthetic": true
+    },
+    {
+      "id": "FAC002",
+      "name": "Patiala Eco Bricks (Demo)",
+      "facility_type": "buyer",
+      "industry": "Brick Manufacturing",
+      "city": "Patiala",
+      "state": "Punjab",
+      "latitude": 30.3398,
+      "longitude": 76.3869,
+      "required_material": "Fly Ash",
+      "required_quantity_tonnes": 200,
+      "is_synthetic": true
+    },
+    {
+      "id": "FAC003",
+      "name": "Ambala Green Cement Works (Demo)",
+      "facility_type": "buyer",
+      "industry": "Cement Manufacturing",
+      "city": "Ambala",
+      "state": "Haryana",
+      "latitude": 30.3782,
+      "longitude": 76.7767,
+      "required_material": "Fly Ash",
+      "required_quantity_tonnes": 300,
+      "is_synthetic": true
+    },
+    {
+      "id": "FAC004",
+      "name": "Ludhiana Sustainable Concrete (Demo)",
+      "facility_type": "buyer",
+      "industry": "Concrete Products",
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "latitude": 30.9009,
+      "longitude": 75.8573,
+      "required_material": "Fly Ash",
+      "required_quantity_tonnes": 250,
+      "is_synthetic": true
+    },
+    {
+      "id": "FAC005",
+      "name": "Rupnagar Fly Ash Products (Demo)",
+      "facility_type": "buyer",
+      "industry": "Brick Manufacturing",
+      "city": "Rupnagar",
+      "state": "Punjab",
+      "latitude": 30.9659,
+      "longitude": 76.523,
+      "required_material": "Fly Ash",
+      "required_quantity_tonnes": 150,
+      "is_synthetic": true
+    },
+    {
+      "id": "FAC006",
+      "name": "Yamunanagar Infrastructure Materials (Demo)",
+      "facility_type": "buyer",
+      "industry": "Road Construction",
+      "city": "Yamunanagar",
+      "state": "Haryana",
+      "latitude": 30.129,
+      "longitude": 77.2674,
+      "required_material": "Fly Ash",
+      "required_quantity_tonnes": 400,
+      "is_synthetic": true
+    },
+    {
+      "id": "FAC007",
+      "name": "Bathinda Circular Materials Hub (Demo)",
+      "facility_type": "seller",
+      "industry": "Thermal Power Generation",
+      "city": "Bathinda",
+      "state": "Punjab",
+      "latitude": 30.211,
+      "longitude": 74.9455,
+      "material": "Fly Ash",
+      "available_quantity_tonnes": 600,
+      "is_synthetic": true
+    },
+    {
+      "id": "FAC008",
+      "name": "Mandi Gobindgarh Green Blocks (Demo)",
+      "facility_type": "buyer",
+      "industry": "Brick Manufacturing",
+      "city": "Mandi Gobindgarh",
+      "state": "Punjab",
+      "latitude": 30.6642,
+      "longitude": 76.2914,
+      "required_material": "Fly Ash",
+      "required_quantity_tonnes": 180,
+      "is_synthetic": true
+    },
+    {
+      "id": "FAC009",
+      "name": "Panipat Eco Construction (Demo)",
+      "facility_type": "buyer",
+      "industry": "Concrete Products",
+      "city": "Panipat",
+      "state": "Haryana",
+      "latitude": 29.3909,
+      "longitude": 76.9635,
+      "required_material": "Fly Ash",
+      "required_quantity_tonnes": 350,
+      "is_synthetic": true
+    },
+    {
+      "id": "FAC010",
+      "name": "Kurukshetra Green Infrastructure (Demo)",
+      "facility_type": "buyer",
+      "industry": "Road Construction",
+      "city": "Kurukshetra",
+      "state": "Haryana",
+      "latitude": 29.9695,
+      "longitude": 76.8783,
+      "required_material": "Fly Ash",
+      "required_quantity_tonnes": 220,
+      "is_synthetic": true
+    }
+  ]
+}
